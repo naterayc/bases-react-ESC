@@ -23,4 +23,5 @@ const MenuItem = ({ title, imageUrl, size, linkUrl, history, match }) => (
     </div>
 );
 
+// design pattern: HOC (HIGH ORDER COMPONENT)
 export default withRouter(MenuItem)
